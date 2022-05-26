@@ -7,7 +7,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAQXxV4M7qVO9hcbbiTNMVmBlfXr62qQWg",
+  apiKey: process.env.API_KEY,
   authDomain: "leetcode-contest-ranks-fc79d.firebaseapp.com",
   databaseURL: "https://leetcode-contest-ranks-fc79d-default-rtdb.firebaseio.com",
   projectId: "leetcode-contest-ranks-fc79d",
